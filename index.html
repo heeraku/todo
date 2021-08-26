@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Codystar:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <title>TODO -heeraku</title>
+</head>
+<body>
+   
+    <h1 id="greeting" class="hidden"></h1>
+
+    <div class="wrapper">
+        <form class="hidden" id="login-form">
+            <input required maxlength="15" type="text"/>
+            <div class="underline"></div>
+            <label>What is your name?</label>
+        </form>
+    </div>      
+
+    <div class="dodo">
+        <form id="todo-form">
+            <input type="text" required/>
+            <label>Write a To Do</label>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+        
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div> 
+
+    <h2 id="clock">00:00:00</h2>
+
+
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
